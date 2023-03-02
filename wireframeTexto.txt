@@ -1,0 +1,12 @@
+	1º Pagina
+-CONTEUDO:Um tema de T.I 
+-barra de nav com links
+-videos e imagens(2ºpag)
+-ida e volta
+-botao contato
+
+	2º Pagina
+
+-GALERIA
+-ida e volta
+-botao contato
