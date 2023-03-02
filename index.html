@@ -6,72 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Document</title>
+    <title>Redes</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-1"><!--linha para estilização--></div>
-            <div class="col-sm-10">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
-                            </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <div class="col-sm-1"><!--linha para estilização--></div> 
-            
-            <div class="col-sm-1"><!--linha para estilização--></div> 
-            <div class="col-10 cor-back">
-                <div class="margem1"></div>
-            </div>
-            <div class="col-sm-1"><!--linha para estilização--></div> 
-            <div class="col-sm-1"><!--linha para estilização--></div>
-            <div class="col-sm-10 cor-back">
-                <h3>O que são redes de computadores?</h3>
-                <div class="container-fluid">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10 cor-back dentista">
+                <div class="container-fluid p-0">
+                    <!-- Barra de Navegação -->
                     <div class="row">
-                        <div class="col-8 p-0">
-                            <p>Redes de computadores referem-se a dispositivos de computação interconectados que podem trocar dados e compartilhar recursos entre si. Esses dispositivos em rede usam um sistema de regras, chamados de protocolos de comunicação, para transmitir informações por meio de tecnologias físicas ou sem fio.</p>
-                                <p>Vamos responder a algumas perguntas frequentes sobre redes de computadores.</p>
-                        </div>
-                        <div class="col-4">
-                            <img src="img/images.jpg" alt="">
+                        <div class="col-sm-12 p-0">
+                            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                                <div class="container-fluid">
+                                    <a class="navbar-brand" href="#">Navbar</a>
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarNav">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Features</a>
+                                            </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#arquitetura">Tipos de Arquitetura</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Pricing</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link disabled">Disabled</a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-1"><!--linha para estilização--></div> 
+                    <!-- FIM Barra de Navegação -->
 
-            <div class="col-sm-1"><!--linha para estilização--></div> 
-            <div class="col-10">
-                <div class="margem1"></div>
-            </div>
-            <div class="col-sm-1"><!--linha para estilização--></div>
-            <div class="col-sm-10">
-                
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 p-0">
+                    <!-- mid -->
+                    <div class="row margem-up margem-bottom">
+                        <div class="col-sm-9">
+                            <h3>O que são redes de computadores?</h3>
+                            <p>Redes de computadores referem-se a dispositivos de computação interconectados que podem trocar dados e compartilhar recursos entre si. Esses dispositivos em rede usam um sistema de regras, chamados de protocolos de comunicação, para transmitir informações por meio de tecnologias físicas ou sem fio.</p>
+                            <p>Vamos responder a algumas perguntas frequentes sobre redes de computadores.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <img class="img-pos" src="img/images.jpg" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margem-up margem-bottom">                        
+                        <div class="col-sm-4">
+                            <img class="img-pos" src="img/virus-img-12.jpg" alt="">
+                        </div>
+                        
+                        <div class="col-sm-8 ">
                             <h3>Como uma rede de computadores funciona?</h3>
                             <p>
                                 Nós e links são os blocos de construção básicos em redes de computadores. Um nó de rede pode ser um equipamento de comunicação de dados (DCE), como um modem, hub ou switch, ou um equipamento terminal de dados (DTE), como dois ou mais computadores e impressoras. Um link refere-se ao meio de transmissão que conecta dois nós. Os links podem ser físicos, como fios de cabos ou fibras ópticas, ou espaço livre usado por redes sem fio.                              
@@ -81,33 +75,176 @@
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-1"><!--linha para estilização--></div> 
-
-            <div class="col-sm-1"><!--linha para estilização--></div> 
-            <div class="col-12">
-                <div class="margem1"></div>
-            </div>
-            <div class="col-sm-1"><!--linha para estilização--></div>
-            <div class="col-sm-10">
-                
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-4 p-0">
-                            <img class="img-pos" src="img/virus-img-12.jpg" alt="">
-                        </div>
-                        <div class="col-1"></div>
-                        <div class="col-7">
+                    <hr>
+                    <div class="row margem-up margem-bottom">
+                        <div class="col-sm-8">
                             <h3>O que as redes de computadores fazem?</h3>
                             <p>As redes de computadores foram criadas no final da década de 1950 para uso militar e de defesa. Elas foram inicialmente usadas para transmitir dados por linhas telefônicas e tinham aplicações comerciais e científicas limitadas. Com o advento das tecnologias da Internet, uma rede de computadores tornou-se indispensável para as empresas.</p>
                             <p>As soluções de rede modernas oferecem mais do que conectividade. Elas são essenciais para a transformação digital e o sucesso das empresas hoje. Os recursos de rede subjacentes tornaram-se mais programáveis, automatizados e seguros.</p>
                             <p>As redes de computadores modernas podem:</p>
                         </div>
+                        <div class="col-sm-4">
+                            <img class="img-pos" src="img/suporte-em-rede-TI.jpg" alt="">
+                        </div>
+                        <div class="col-sm-12">
+                            <ul>
+                                <li>
+                                    <p>
+                                        <b>Operar virtualmente:</b>
+                                        <br>
+                                        <p>A infraestrutura de rede física subjacente pode ser particionada de forma lógica para criar várias redes de "sobreposição". Em uma rede de computadores de sobreposição, os nós estão virtualmente vinculados e os dados podem ser transmitidos entre eles por meio de vários caminhos físicos. Por exemplo, muitas redes empresariais são sobrepostas na Internet.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Integrar em grande escala:</b>
+                                        <br>
+                                        <p>Muitas redes de computadores são definidas por software. O tráfego pode ser roteado e controlado de forma centralizada usando uma interface digital. Essas redes de computadores oferecem suporte ao gerenciamento de tráfego virtual.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Responder rapidamente às mudanças nas condições:</b>
+                                        <br>
+                                        <p>A infraestrutura de rede física subjacente pode ser particionada de forma lógica para criar várias redes de "sobreposição". Em uma rede de computadores de sobreposição, os nós estão virtualmente vinculados e os dados podem ser transmitidos entre eles por meio de vários caminhos físicos. Por exemplo, muitas redes empresariais são sobrepostas na Internet.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Fornecer segurança de dados:</b>
+                                        <br>
+                                        <p>Todas as soluções de redes vêm com recursos de segurança integrados, como criptografia e controle de acesso. Soluções de terceiros, como software antivírus, firewalls e antimalware, podem ser integradas para tornar a rede mais segura.</p>
+                                    </p>
+                                </li>
+                                
+                            </ul>
+                        </div>
                     </div>
+                    <hr>
+                    <div class="row margem-up margem-bottom">
+                        <div class="col-sm-12">
+                            <a name="arquitetura"></a>
+                            <h3>Quais são os tipos de arquitetura de rede de computadores?</h3>
+                            <p>O design da rede de computadores se enquadra em duas grandes categorias:</p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        <b>Arquitetura cliente-servidor</b>
+                                        <br>
+                                        <p>Nesse tipo de rede de computadores, os nós podem ser servidores ou clientes. Os nós do servidor fornecem recursos como memória, capacidade de processamento ou dados aos nós clientes. Os nós do servidor também podem gerenciar o comportamento do nó cliente. Os clientes podem se comunicar uns com os outros, mas não compartilham recursos. Por exemplo, alguns dispositivos de computador em redes empresariais armazenam dados e definições de configuração. Esses dispositivos são os servidores na rede. Os clientes podem acessar esses dados fazendo uma solicitação à máquina do servidor.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Arquitetura ponto a ponto</b>
+                                        <br>
+                                        <p>Na arquitetura ponto a ponto (P2P), os computadores conectados têm capacidades e privilégios iguais. Não existe um servidor central para coordenação. Cada dispositivo na rede de computadores pode atuar como cliente ou servidor. Cada ponto pode compartilhar alguns de seus recursos, como memória e capacidade de processamento, com toda a rede de computadores. Por exemplo, algumas empresas usam a arquitetura P2P para hospedar aplicações que consomem memória, como renderização gráfica 3D, em vários dispositivos digitais.</p>
+                                    </p>
+                                </li>                                
+                            </ol>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margem-up margem-bottom">
+                        <div class="col-sm-4">
+                            <img class="img-pos" src="img/tutorialrcompam_figura7.jpg" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h3>O que é topologia de rede?</h3>
+                            <p>A disposição de nós e links é chamada de topologia de rede. Eles podem ser configurados de maneiras diferentes para obter resultados distintos. Alguns tipos de topologias de rede são:</p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <b>Topologia de barramento</b>
+                                        <br>
+                                        <p>Cada nó está vinculado a apenas um outro nó. A transmissão de dados pelas conexões de rede ocorre em uma direção.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Topologia em anel</b>
+                                        <br>
+                                        <p>Cada nó está vinculado a dois outros nós, formando um anel. Os dados podem fluir bidirecionalmente. No entanto, a falha de um único nó pode desativar toda a rede.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Topologia em estrela</b>
+                                        <br>
+                                        <p>Um nó de servidor central está vinculado a vários dispositivos de rede do cliente. Essa topologia tem melhor performance, pois os dados não precisam passar por cada nó. Eles também são mais confiáveis.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Topologia em malha</b>
+                                        <br>
+                                        <p>Cada nó está conectado a muitos outros nós. Em uma topologia em malha completa, cada nó está conectado a todos os outros nós da rede.</p>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row margem-up margem-bottom">
+                        <div class="col-sm-12">
+                            <h3>Quais são os tipos de redes de computadores empresariais?</h3>
+                            <p>Dependendo do tamanho e dos requisitos da organização, existem três tipos comuns de redes privadas empresariais:</p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <b>Rede de área local (LAN)</b>
+                                        <br>
+                                        <p>Uma LAN é um sistema interconectado limitado em tamanho e geografia. Ela normalmente conecta computadores e dispositivos em um único escritório ou edifício. Ela é usada por pequenas empresas ou como rede de teste para prototipagem em pequena escala.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Redes de longa distância (WAN)</b>
+                                        <br>
+                                        <p>Uma rede empresarial que abrange edifícios, cidades e até países é chamada de rede de longa distância (WAN). Enquanto as redes de área locais são usadas para transmitir dados em velocidades mais altas em estreita proximidade, as WANs são configuradas para comunicação de longa distância que é segura e confiável.</p>
+                                        <p>SD-WAN ou WAN definida por software é uma arquitetura de WAN virtual controlada por tecnologias de software. Uma SD-WAN oferece serviços de conectividade mais flexíveis e confiáveis que podem ser controlados no nível da aplicação sem sacrificar a segurança e a qualidade do serviço.</p>                                                
+                                    </p>
+                                </li>                                
+                                <li>
+                                    <p>
+                                        <b>Redes de provedores de serviços</b>
+                                        <br>
+                                        <p>As redes de provedores de serviços permitem que os clientes aluguem capacidade e funcionalidade de rede do provedor. Os provedores de serviços de rede podem consistir em empresas de telecomunicações, operadoras de dados, provedores de comunicações sem fio, provedores de serviços de Internet e operadoras de televisão a cabo que oferecem acesso à Internet de alta velocidade.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Redes em nuvem</b>
+                                        <br>                                      
+                                        <p>Conceitualmente, uma rede em nuvem pode ser vista como uma WAN com sua infraestrutura fornecida por um serviço baseado na nuvem. Alguns ou todos os recursos e capacidades de rede de uma organização são hospedados em uma plataforma de nuvem pública ou privada e disponibilizados sob demanda. Esses recursos de rede podem incluir roteadores virtuais, firewalls, largura de banda e software de gerenciamento de rede, com outras ferramentas e funções disponíveis, conforme necessário.</p>
+                                        <p>As empresas hoje usam redes em nuvem para acelerar o tempo de comercialização, aumentar a escala e gerenciar os custos com eficiência. O modelo de rede em nuvem tornou-se a abordagem padrão para criar e fornecer aplicações para empresas modernas.</p>                                                
+                                    </p>
+                                </li>                                
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- FIM mid -->  
+                    <hr>
+                    <!-- Video -->  
+                    <div class="row margem-bottom margem-up">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+                            <h2 class="text-center"><u>CONCEITOS INICIAIS</u></h2>
+                            <iframe
+                            width="100%" 
+                            height="315" 
+                            src="https://www.youtube.com/embed/LVtc3rgirGs" title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    <!-- FIM Video -->  
                 </div>
             </div>
-            <div class="col-sm-1"><!--linha para estilização--></div> 
+            <div class="col-sm-1"></div>
         </div>
     </div>
 </body>
