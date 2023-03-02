@@ -1,25 +1,24 @@
-*
+*               /*  config gerais */
 {
     margin: 0px;
     padding: 0px;
 }
-body
+body            /*  config do body */
 {
     background-color: rgb(48, 46, 46);
     color: white;
     text-align: justify;
 }
-.margem-up
+.margem-up          /*  margem de cima  */
 {
     margin-top: 50px;
 }
-.margem-bottom
+.margem-bottom          /*  margem de baixo  */
 {
     margin-bottom: 50px;
 }
 .teste
 {
-    /* background-color: blue; */
     padding-left: 30px;
 }
 .teste1
@@ -28,21 +27,42 @@ body
 }
 .teste2
 {
-    background-color: green;
+    margin-left: -60px;
 }
 
-.img-pos
+.img-pos                /*  configuracao das imagens da tela principal */
 {
     /* height: 250px;
     width: 400px; */
     height: auto;
     width: 100%;
 }
-.cor-back
+.ic-pos                     /*  config da posição e dimensao do icone da tela principal */
+{
+    height: auto;
+    width: 105px;
+    margin-right: 70px;
+    /* height: auto;
+    width: 100%; */
+}
+.ic-pos-galeria                 /* config da posição e dimensao do icone da galeria */
+{
+    height: auto;
+    width: 150px;
+    margin-right: 70px;
+}
+.cor-back               /*  cor do fundo principal */
 {
     background-color: rgb(34, 33, 33);
 }
-.dentista
+.cor-back a
+{
+    text-decoration: inherit;
+}
+.cor-back a:hover{              /* hover dos links da pagina principal*/
+    color: red;
+}
+.sombra             /* sombra da pagina principal */
 {
     box-shadow:
     0px 0px 3.9px rgba(0, 0, 0, 0.31),
@@ -53,4 +73,53 @@ body
     0px 0px 77px rgba(0, 0, 0, 0.09)
   ;
 }
-
+.icone-contato        /* redimensionar o icone do contato */
+{
+    width: 60px;
+    height: 60px;
+}
+.pos-icone-contato        /* posicionar o icone do contato */
+{
+    position: fixed;    
+    z-index: 999;
+    right: 40px;
+    bottom: 20px;
+}
+.fundo-icone-contato            /* fundo do icone do contato */
+{
+    background-color: rgb(170, 70, 70); 
+    border-radius: 100%; 
+    width: 65px; 
+    height: 65px;
+    margin: auto;
+}
+.icone-voltar        /* redimensionar o icone do voltar */
+{
+    width: 60px;
+    height: 60px;
+}
+.pos-icone-voltar        /* posicionar o icone do voltar */
+{
+    position: absolute;    
+    z-index: 999;
+    right: 20px;
+    top: 60px;
+}
+.icone-voltar:hover        /* hover o icone do voltar */
+{
+    width: 65px;
+    height: 65px;
+}
+.fundo-icone-voltar
+{
+    background-color: rgb(170, 70, 70); 
+    border-radius: 100%; 
+    width: 60px; 
+    height: 60px;
+    margin: auto;
+}
+.fundo-icone-voltar:hover
+{
+    width: 65px;
+    height: 65px;
+}
